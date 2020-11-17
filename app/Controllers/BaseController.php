@@ -1,6 +1,8 @@
 <?php
 namespace App\Controllers;
 
+$db = \Config\Database::connect();
+
 /**
  * Class BaseController
  *
@@ -26,7 +28,7 @@ class BaseController extends Controller
 	 *
 	 * @var array
 	 */
-	protected $helpers = [];
+	protected $helpers = ['array', 'cookies', 'date', 'filesystem', 'form', 'html', 'number', 'text', ];
 
 	/**
 	 * Constructor.
