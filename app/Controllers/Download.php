@@ -20,7 +20,6 @@ class Download extends BaseController
         //echo "<br>";
         //echo "Base URL". \base_url();
 
-
         echo view('template/header');
         echo view('template/navbar');
         echo view('template/listall');
