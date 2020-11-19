@@ -12,5 +12,4 @@ echo "<p>Copyright &copy; 2019-" . date("Y") . " myassetsdb.com</p>";
   } );
 </script>
 </body>
-
 </html>
