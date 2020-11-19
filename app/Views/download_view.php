@@ -28,7 +28,7 @@
                <td class="py-1">
               <a href="<?php echo $link['myassetsdb_link_mshare'];?>" class="btn btn-primary btn-sm" target="_blank" ><img class="pt-1" src="mshare.png" alt="mshare logo" width="50" height="15"> Download</a>
               </td>
-              <td class="py-1"> <span class="btn btn-warning">Comming Soon</span> </td>
+              <td class="py-1"> <span class="btn btn-warning btn-sm">Comming Soon</span> </td>
 
             </tr> 
             <?php $loopCounter++; ?>
